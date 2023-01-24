@@ -1,0 +1,66 @@
+/* main */
+.h1 {
+  width: 1440px;
+  height: 300px;
+  background: #2e2f42;
+  color: #ffffff;
+}
+.button-h1 {
+  background: #4d5ae5;
+  width: 100px;
+  height: 40px;
+}
+.button-h1:hover,
+.button-h1:focus {
+  background: #404bbf;
+}
+.mail-main {
+  color: black;
+}
+.mail-main:hover,
+.mail-main:focus {
+  color: blue;
+}
+/* portfolio */
+.body-background {
+  background-color: #e5e5e5;
+}
+.footer {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 200px;
+}
+.footer-p {
+  width: 264px;
+  height: 72px;
+}
+.header {
+  background-color: #e5e5e5;
+}
+.main {
+  background-color: #e5e5e5;
+}
+.buttons-main {
+  color: #f4f4fd;
+  width: 100px;
+  height: 40px;
+}
+.buttons-text {
+  color: blue;
+}
+.buttons-main:hover {
+  background: #404bbf;
+}
+.text-button {
+  color: #4d5ae5;
+}
+.text-button:hover {
+  color: #ffffff;
+}
+.mail-portfolio {
+  color: black;
+}
+.mail-portfolio:hover,
+.mail-portfolio:focus {
+  color: blue;
+}
