@@ -1,19 +1,152 @@
-/* main */
+:root {
+  --tags-color: #2e2f42;
+  --p-text: #434455;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+/*----------- WEBSTUDIO -----------*/
+.web-logo-style {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  color: #4d5ae5;
+}
+
+.studio-logo-style {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  color: var(--tags-color);
+}
+.studio-logo-style-footer {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  color: #f4f4fd;
+}
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+}
+.tabs-web-studio {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: var(--tags-color);
+}
+.contacs-web-studio {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: var(--p-text);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .h1 {
-  width: 1440px;
-  height: 300px;
-  background: #2e2f42;
+  background-color: var(--tags-color);
   color: #ffffff;
 }
+.section-slogan {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: calc(60 / 56);
+}
+
 .button-h1 {
   background: #4d5ae5;
-  width: 100px;
-  height: 40px;
+  width: 169px;
+  height: 56px;
 }
+.cursor-pointer {
+  cursor: pointer;
+}
+.button-text-after-title {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: #ffffff;
+}
+
 .button-h1:hover,
 .button-h1:focus {
   background: #404bbf;
 }
+.futures-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  color: var(--tags-color);
+}
+.futures-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: var(--p-text);
+}
+.wawd {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  color: var(--tags-color);
+}
+.background-section-our-team {
+  background: #f4f4fd;
+}
+.background-li-our-team {
+  background: #ffffff;
+}
+.our-team-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  color: var(--tags-color);
+}
+.names-our-team {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  color: var(--tags-color);
+}
+.position-our-team {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: var(--p-text);
+}
+
 .mail-main {
   color: black;
 }
@@ -21,40 +154,58 @@
 .mail-main:focus {
   color: blue;
 }
-/* portfolio */
-.body-background {
-  background-color: #e5e5e5;
+.list-style-none {
+  list-style: none;
+  text-decoration: none;
 }
+
+.web-studio-footer-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #e7e9fc;
+}
+
+/*----------- portfolio -----------*/
+.portfolio-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+}
+.portfolio-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+}
+
 .footer {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 200px;
 }
-.footer-p {
-  width: 264px;
-  height: 72px;
-}
+
 .header {
-  background-color: #e5e5e5;
 }
-.main {
-  background-color: #e5e5e5;
-}
+
 .buttons-main {
   color: #f4f4fd;
-  width: 100px;
-  height: 40px;
 }
 .buttons-text {
+  font-family: inherit;
   color: blue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
 }
-.buttons-main:hover {
+.buttons-main:hover,
+.buttons-main:focus {
   background: #404bbf;
 }
-.text-button {
-  color: #4d5ae5;
-}
-.text-button:hover {
+
+.buttons-text:hover,
+.buttons-text:focus {
   color: #ffffff;
 }
 .mail-portfolio {
