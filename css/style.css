@@ -10,51 +10,44 @@ body {
   color: var(--p-text);
 }
 /*----------- WEBSTUDIO -----------*/
-.web-logo-style {
-  font-family: 'Raleway';
+.font-style-normal {
   font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 24px;
-  color: #4d5ae5;
-}
-
-.studio-logo-style {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: calc(24 / 18);
-  color: var(--tags-color);
-}
-.studio-logo-style-footer {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: calc(24 / 18);
-  color: #f4f4fd;
 }
 .logo {
   font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 800;
+
   font-size: 18px;
   line-height: calc(24 / 18);
+  letter-spacing: 0.03em;
+  color: var(--tags-color);
+  text-transform: uppercase;
+}
+.web-logo-style {
+  color: #4d5ae5;
+  text-transform: uppercase;
+}
+
+.logo-footer {
+  color: #ffffff;
+  text-transform: uppercase;
 }
 .tabs-web-studio {
-  font-style: normal;
-  font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
   color: var(--tags-color);
+  letter-spacing: 0.02em;
+}
+.tabs-web-studio:hover,
+.tabs-web-studio:focus {
+  color: #404bbf;
 }
 .contacs-web-studio {
   font-style: normal;
-  font-weight: 400;
+
   font-size: 16px;
   line-height: calc(24 / 16);
   color: var(--p-text);
+  letter-spacing: 0.02em;
 }
 
 .visually-hidden {
@@ -70,15 +63,15 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.h1 {
+.hero-section {
   background-color: var(--tags-color);
-  color: #ffffff;
 }
 .section-slogan {
-  font-style: normal;
-  font-weight: 700;
   font-size: 56px;
   line-height: calc(60 / 56);
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
 }
 
 .button-h1 {
@@ -91,11 +84,11 @@ body {
 }
 .button-text-after-title {
   font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
+
   font-size: 16px;
   line-height: calc(24 / 16);
   color: #ffffff;
+  letter-spacing: 0.04em;
 }
 
 .button-h1:hover,
@@ -103,24 +96,25 @@ body {
   background: var(--hf-buttons-color);
 }
 .futures-name {
-  font-style: normal;
-  font-weight: 500;
   font-size: 20px;
   line-height: calc(24 / 20);
   color: var(--tags-color);
+  letter-spacing: 0.02em;
 }
 .futures-text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
 }
 .wawd {
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: calc(40 / 36);
   color: var(--tags-color);
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+.img-main-page {
 }
 .background-section-our-team {
   background: #f4f4fd;
@@ -129,24 +123,25 @@ body {
   background: #ffffff;
 }
 .our-team-title {
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: calc(40 / 36);
   color: var(--tags-color);
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .names-our-team {
-  font-style: normal;
-  font-weight: 500;
   font-size: 20px;
   line-height: calc(24 / 20);
   color: var(--tags-color);
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  text-align: center;
 }
 .position-our-team {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .mail-main {
@@ -158,29 +153,31 @@ body {
 }
 .list-style-none {
   list-style: none;
+}
+
+.text-decoration {
   text-decoration: none;
 }
 
 .web-studio-footer-text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: calc(24 / 16);
   color: #e7e9fc;
+  letter-spacing: 0.02em;
 }
 
 /*----------- portfolio -----------*/
 .portfolio-text {
-  font-style: normal;
-  font-weight: 500;
   font-size: 20px;
   line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+  color: var(--tags-color);
 }
 .portfolio-p {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--p-text);
 }
 
 .footer {
@@ -191,15 +188,15 @@ body {
 }
 
 .buttons-main {
-  color: #f4f4fd;
+  background: #f4f4fd;
 }
 .buttons-text {
   font-family: inherit;
-  color: blue;
-  font-style: normal;
+  color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
 }
 .buttons-main:hover,
 .buttons-main:focus {
