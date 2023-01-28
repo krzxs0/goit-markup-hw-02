@@ -1,9 +1,13 @@
 :root {
   --tags-color: #2e2f42;
   --p-text: #434455;
+  --buttons-color: #4d5ae5;
+  --hf-buttons-color: #404bbf;
+  --our-team-background: #f4f4fd;
 }
 body {
   font-family: 'Roboto', sans-serif;
+  color: var(--p-text);
 }
 /*----------- WEBSTUDIO -----------*/
 .web-logo-style {
@@ -78,7 +82,7 @@ body {
 }
 
 .button-h1 {
-  background: #4d5ae5;
+  background: var(--buttons-color);
   width: 169px;
   height: 56px;
 }
@@ -96,7 +100,7 @@ body {
 
 .button-h1:hover,
 .button-h1:focus {
-  background: #404bbf;
+  background: var(--hf-buttons-color);
 }
 .futures-name {
   font-style: normal;
@@ -110,7 +114,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: calc(24 / 16);
-  color: var(--p-text);
 }
 .wawd {
   font-style: normal;
@@ -144,7 +147,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: calc(24 / 16);
-  color: var(--p-text);
 }
 
 .mail-main {
@@ -201,7 +203,7 @@ body {
 }
 .buttons-main:hover,
 .buttons-main:focus {
-  background: #404bbf;
+  background: var(--hf-buttons-color);
 }
 
 .buttons-text:hover,
