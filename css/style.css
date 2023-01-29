@@ -8,6 +8,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--p-text);
+  background: #ffffff;
 }
 /*----------- WEBSTUDIO -----------*/
 .font-style-normal {
@@ -33,6 +34,7 @@ body {
 }
 .tabs-web-studio {
   font-size: 16px;
+  font-weight: 500;
   line-height: calc(24 / 16);
   color: var(--tags-color);
   letter-spacing: 0.02em;
@@ -48,6 +50,10 @@ body {
   line-height: calc(24 / 16);
   color: var(--p-text);
   letter-spacing: 0.02em;
+}
+.contacs-web-studio:hover,
+.contacs-web-studio:focus {
+  color: #404bbf;
 }
 
 .visually-hidden {
@@ -78,6 +84,7 @@ body {
   background: var(--buttons-color);
   width: 169px;
   height: 56px;
+  font-weight: 500;
 }
 .cursor-pointer {
   cursor: pointer;
